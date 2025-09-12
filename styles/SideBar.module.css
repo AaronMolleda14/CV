@@ -1,0 +1,61 @@
+.sidebar {
+  width: 20%;
+  background-color: #232323;
+  min-height: 100vh;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  z-index: 1000;
+}
+
+.imageContainer {
+  margin-bottom: 1.5rem;
+}
+
+.profileImage {
+  border-radius: 50%;
+  border: 4px solid #444;
+}
+
+.name {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.link {
+  color: #fff;
+  background-color: #333;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.link:hover {
+  background-color: #444;
+  transform: scale(1.05);
+}
+
+.contactInfo {
+  margin-top: auto;
+  color: #ccc;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+}

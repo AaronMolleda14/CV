@@ -1,0 +1,25 @@
+.card {
+  background: #232323;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.15);
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
+  transform: translateY(-8px) scale(1.03);
+}
+
+.cardTitle {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.cardDivider {
+    width: 80%;
+}

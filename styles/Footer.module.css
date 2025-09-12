@@ -1,0 +1,88 @@
+.footer {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    min-height: 200px;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.school {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.degree {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin: 0;
+}
+
+.year {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 0;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #555;
+}
+
+.language:last-child {
+    border-bottom: none;
+}
+
+.languageName {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.level {
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: rgba(115, 123, 132, 0.1);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .footer {
+        padding: 30px 15px;
+    }
+}
