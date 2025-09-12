@@ -1,3 +1,15 @@
 .mainCard {
     width: 60%;
 }
+
+@media (max-width: 768px) {
+    .mainCard {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainCard {
+        width: 90%;
+    }
+}

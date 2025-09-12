@@ -83,3 +83,58 @@
   background-color: #444;
   transform: scale(1.05);
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .homeContainer {
+    padding: 1rem;
+  }
+  
+  .profileSection {
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+  }
+  
+  .profileImage {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .name {
+    font-size: 2rem;
+  }
+  
+  .welcome {
+    font-size: 1.2rem;
+  }
+  
+  .button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileSection {
+    padding: 1.5rem 1rem;
+    margin: 0.5rem;
+  }
+  
+  .profileImage {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .name {
+    font-size: 1.8rem;
+  }
+  
+  .welcome {
+    font-size: 1rem;
+  }
+  
+  .button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}

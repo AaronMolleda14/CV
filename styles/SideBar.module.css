@@ -11,6 +11,26 @@
   align-items: center;
   padding: 2rem 2.5rem;
   z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.sidebarOpen {
+  transform: translateX(0);
+}
+
+.sidebarClosed {
+  transform: translateX(-100%);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 
 .imageContainer {
@@ -58,4 +78,58 @@
   font-size: 1rem;
   text-align: center;
   padding-top: 2rem;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80%;
+    max-width: 300px;
+    padding: 1.5rem;
+  }
+  
+  .overlay {
+    display: block;
+  }
+  
+  .profileImage {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .name {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .link {
+    font-size: 1.2rem;
+    padding: 0.6rem 0.8rem;
+  }
+  
+  .contactInfo {
+    font-size: 0.9rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 90%;
+    padding: 1rem;
+  }
+  
+  .profileImage {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+  }
+  
+  .link {
+    font-size: 1rem;
+    padding: 0.5rem 0.6rem;
+  }
 }

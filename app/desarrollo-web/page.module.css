@@ -5,3 +5,15 @@
 .toolsCard {
     width: 30%;
 }
+
+@media (max-width: 768px) {
+    .cards, .toolsCard {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards, .toolsCard {
+        width: 100%;
+    }
+}

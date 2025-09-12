@@ -6,3 +6,14 @@
     width: 40%;
 }
 
+@media (max-width: 768px) {
+    .mainCard, .toolsCard {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainCard, .toolsCard {
+        width: 90%;
+    }
+}
