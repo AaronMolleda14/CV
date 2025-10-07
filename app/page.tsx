@@ -21,7 +21,6 @@ export default function Home() {
           <KnowledgeButton label="Desarrollo Web" href="/desarrollo-web" />
           <KnowledgeButton label="Programación" href="/programacion" />
           <KnowledgeButton label="Machine Learning" href="/machine-learning" />
-          <KnowledgeButton label="Redes" href="/redes" />
           <KnowledgeButton label="Bases de Datos" href="/bases-de-datos" />
         </div>
       </div>

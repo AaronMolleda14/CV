@@ -24,7 +24,6 @@ export default function SideBar({ isOpen = true, onClose }: SideBarProps) {
           <KnowledgeButton label="Desarrollo Web" href="/desarrollo-web" onClick={onClose} />
           <KnowledgeButton label="Programación" href="/programacion" onClick={onClose} />
           <KnowledgeButton label="Machine Learning" href="/machine-learning" onClick={onClose} />
-          <KnowledgeButton label="Redes" href="/redes" onClick={onClose} />
           <KnowledgeButton label="Bases de Datos" href="/bases-de-datos" onClick={onClose} />
           <KnowledgeButton label="Volver al Inicio" href="/" onClick={onClose} />
         </nav>
