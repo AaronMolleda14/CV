@@ -11,26 +11,24 @@ export default function BasesDatos() {
       <section className={styles.contentSection}>
           
         <div className={styles.cardsContainer}>
-        <Card title="Conocimientos Técnicos" className={localStyles.mainCard}>
+        <Card title="Bases de Datos SQL" className={localStyles.mainCard}>
               <ul className={styles.list}>
-                  <li>SQL Server Management Studio para administrar BD.</li>
+                  <li>Uso de SQL Server y MySQL.</li>
+                  <li>SQL Server Management Studio y phpMyAdmin para administrar BD.</li>
                   <li>Operaciones SQL para inserción, modificación, consulta y eliminación de registros.</li>
-                  <li>Implementación básica de disparadores (triggers) para automatización de tareas.</li>
-                  <li>Desarrollo de procedimientos almacenados (stored procedures).</li>
+                  <li>Cláusulas WHERE, ORDER BY, GROUP BY</li>
+                  <li>Funciones agregadas (SUM, AVG, etc.)</li>
+                  <li>Uniones (JOINs) entre múltiples tablas</li>
               </ul>
           </Card>
 
-          <Card title="Consultas" className={localStyles.mainCard}>
+          <Card title="Bases de Datos NoSQL" className={localStyles.mainCard}>
               <ul className={styles.list}>
-                  <li>
-                      Elaboración de consultas simples y avanzadas con:
-                      <ul className={styles.subList}>
-                          <li>Cláusulas WHERE, ORDER BY, GROUP BY</li>
-                          <li>Funciones agregadas (SUM, AVG, etc.)</li>
-                          <li>Uniones (JOINs) entre múltiples tablas</li>
-                      </ul>
-                  </li>
-              </ul>  
+                  <li>Uso de MongoDB y Firebase para almacenar y gestionar datos.</li>
+                  <li>Creación de colecciones y documentos.</li>
+                  <li>Implementación de índices para optimización de consultas.</li>
+                  <li>Conxión de bases de datos a aplicaciones web.</li>
+              </ul>
           </Card>
         </div>
 

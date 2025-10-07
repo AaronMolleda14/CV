@@ -11,16 +11,6 @@ export default function Programacion() {
       <section className={styles.contentSection}>
           
         <div className={styles.cardsContainer}>
-          <Card title="Java, C#" className={localStyles.mainCard}>
-            <ul className={styles.list}>
-              <li>Desarrollo de aplicaciones de escritorio.</li>
-              <li>Programación orientada a objetos.</li>
-              <li>Creación de interfaces gráficas.</li>
-              <li>Conexión a bases de datos SQL.</li>
-              <li>Uso de Visual Studio 2022 y Apache NetBeans.</li>
-            </ul>
-          </Card>
-
           <Card title="JavaScript y TypeScript" className={localStyles.mainCard}>
             <ul className={styles.list}>
               <li>Desarrollo de aplicaciones web con React y Next.js.</li>
@@ -28,6 +18,16 @@ export default function Programacion() {
               <li>Autenticación y manejo de sesiones.</li>
               <li>Interfaces gráficas responsivas.</li>
               <li>Conexión a bases de datos NoSQL.</li>
+            </ul>
+          </Card>
+
+          <Card title="Java, C#" className={localStyles.mainCard}>
+            <ul className={styles.list}>
+              <li>Desarrollo de aplicaciones de escritorio.</li>
+              <li>Programación orientada a objetos.</li>
+              <li>Creación de interfaces gráficas.</li>
+              <li>Conexión a bases de datos SQL.</li>
+              <li>Uso de Visual Studio 2022 y Apache NetBeans.</li>
             </ul>
           </Card>
 

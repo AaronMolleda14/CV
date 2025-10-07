@@ -19,8 +19,8 @@ export default function Home() {
         <p className={styles.welcome}>Bienvenido a mi CV</p>
         <div className={styles.buttonGroup}>
           <KnowledgeButton label="Desarrollo Web" href="/desarrollo-web" />
-          <KnowledgeButton label="Machine Learning" href="/machine-learning" />
           <KnowledgeButton label="Programación" href="/programacion" />
+          <KnowledgeButton label="Machine Learning" href="/machine-learning" />
           <KnowledgeButton label="Redes" href="/redes" />
           <KnowledgeButton label="Bases de Datos" href="/bases-de-datos" />
         </div>
