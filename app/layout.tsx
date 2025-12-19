@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Aaron Molleda - CV",
   description: "Portfolio y CV de Aaron Molleda - Desarrollador Web, Machine Learning, Programación",
   viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
