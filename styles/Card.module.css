@@ -24,6 +24,17 @@
     width: 80%;
 }
 
+/* Tablet styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .card {
+    padding: 1.8rem 1.8rem;
+  }
+  
+  .cardTitle {
+    font-size: 1.8rem;
+  }
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   .card {

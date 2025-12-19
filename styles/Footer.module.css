@@ -75,6 +75,21 @@
     border-radius: 4px;
 }
 
+/* Tablet styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .footer {
+        padding: 35px 18px;
+    }
+    
+    .container {
+        gap: 35px;
+    }
+    
+    .title {
+        font-size: 1.4rem;
+    }
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .container {

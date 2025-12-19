@@ -80,6 +80,33 @@
   padding-top: 2rem;
 }
 
+/* Tablet styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .sidebar {
+    width: 25%;
+    padding: 1.5rem 1.5rem;
+  }
+  
+  .profileImage {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .link {
+    font-size: 1.3rem;
+    padding: 0.7rem 0.9rem;
+  }
+  
+  .contactInfo {
+    font-size: 0.95rem;
+  }
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   .sidebar {

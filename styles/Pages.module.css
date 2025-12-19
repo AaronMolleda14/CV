@@ -65,6 +65,27 @@
   margin: 2rem 0;
 }
 
+/* Tablet styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .mainContent {
+    margin-left: 25%;
+  }
+  
+  .contentSection {
+    padding: 2rem 2rem;
+  }
+  
+  .list {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+  
+  .cardsContainer {
+    gap: 2rem;
+    margin: 1.5rem 0;
+  }
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   .mainContent {
@@ -84,6 +105,13 @@
     gap: 1rem;
     margin: 0.5rem 0;
     padding: 0 0.5rem;
+  }
+}
+
+/* Content section tablet styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .sectionContainer {
+    padding: 2rem 3rem;
   }
 }
 

@@ -82,6 +82,13 @@
     }
 }
 
+/* Tablet styles */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .title {
+        font-size: 3.5rem;
+    }
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
     .menuButton {

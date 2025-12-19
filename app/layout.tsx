@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -15,10 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aaron Molleda - CV",
   description: "Portfolio y CV de Aaron Molleda - Desarrollador Web, Machine Learning, Programación",
-  viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: "/favicon.png",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

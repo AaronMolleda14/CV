@@ -16,18 +16,18 @@ export default function BasesDatos() {
                   <li>Uso de SQL Server y MySQL.</li>
                   <li>SQL Server Management Studio y phpMyAdmin para administrar BD.</li>
                   <li>Operaciones SQL para inserción, modificación, consulta y eliminación de registros.</li>
-                  <li>Cláusulas WHERE, ORDER BY, GROUP BY</li>
-                  <li>Funciones agregadas (SUM, AVG, etc.)</li>
-                  <li>Uniones (JOINs) entre múltiples tablas</li>
+                  <li>Cláusulas WHERE, ORDER BY, GROUP BY.</li>
+                  <li>Funciones agregadas (SUM, AVG, etc.).</li>
+                  <li>Uniones (JOINs) entre múltiples tablas.</li>
               </ul>
           </Card>
 
           <Card title="Bases de Datos NoSQL" className={localStyles.mainCard}>
               <ul className={styles.list}>
-                  <li>Uso de MongoDB y Firebase para almacenar y gestionar datos.</li>
-                  <li>Creación de colecciones y documentos.</li>
+                  <li>Uso de PostgreSQL MongoDB y Firebase para almacenar y gestionar datos.</li>
+                  <li>Creación de modelos, tablas, colecciones y documentos.</li>
                   <li>Implementación de índices para optimización de consultas.</li>
-                  <li>Conxión de bases de datos a aplicaciones web.</li>
+                  <li>Conexión de bases de datos a aplicaciones web.</li>
               </ul>
           </Card>
         </div>
