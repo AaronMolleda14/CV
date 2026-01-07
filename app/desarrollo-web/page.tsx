@@ -49,7 +49,7 @@ export default function DesarrolloWeb() {
             <div className={localStyles.buttonGroup}>
               <KnowledgeButton label="Sitio web de Gimnasio" href="https://gym-omega-two.vercel.app" />
               <KnowledgeButton label="Sitio web de Recetas" href="https://recipe-book-five-rho.vercel.app" />
-              <KnowledgeButton label="E-Commerce (Mantenimiento)" href="/404" />
+              <KnowledgeButton label="E-Commerce" href="https://e-commerce-omega-eight-44.vercel.app" />
             </div>
           </Card>
         </div>
